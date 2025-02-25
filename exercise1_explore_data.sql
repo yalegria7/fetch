@@ -48,8 +48,7 @@ select distinct gender
 from users
 order by gender
 
-
-
+  
 ----PRODUCTS TABLE
 select *
 from products
@@ -75,11 +74,10 @@ from products
 where barcode is null
 
 --Checking distinct values
---Findings: Category1 seems the most broad, category4 is the most specific
+--Findings: Category 1 seems the most broad, category 4 is the most specific
 select distinct category_4
 from products
 order by category_4
-
 
 
 ----TRANSACTIONS TABLE
@@ -138,7 +136,7 @@ order by sale
 limit 100
 
 --Checking relationship between quantity and sale
---Question: What is the relationship between transaction & sale?
+--Question: What is the relationship between quantity & sale?
 select distinct quantity, sale
 from transactions
 limit 100
