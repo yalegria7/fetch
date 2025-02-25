@@ -1,0 +1,27 @@
+﻿Hello Product Team,
+
+
+I am a Data Analyst on the Data Analytics team. I was looking over the users, products, and transactions data and had a few notes/questions.
+Users Data
+* Gender: The gender values are inconsistent in their formatting, for example, non-binary shows as “Non-Binary” and “non binary”. Is gender a fill-in text box format? If so, I believe changing this to a drop-down menu will be more beneficial for data collection.
+* Birth Dates: There are several users with unrealistic birth dates, for example, one user has selected their birth year as 1899. If possible, it might be best to cap the birth year at a specific year. 
+Products Data
+* Barcodes: Several products in our system do not have barcodes associated with the product. Other products that have the same barcodes. It would be helpful to know how we collect the product information to resolve the missing/duplicate information.
+Transactions Data
+* Quantity: Some quantities show as a decimal below one (e.g. 0.23) or as ‘zero’ instead of a numeric value. How do we collect quantity information from the receipts? It would be best to have consistent formatting such as all numeric values. 
+* Sale: Could you help me better understand the relationship between quantity and sale?
+* Users: Several users have scanned receipts but we do not have any information on these users. Are these former users who have deleted their accounts?
+
+
+One trend I found interesting is that 83% of receipts were scanned by female user accounts with the rest being male user accounts.
+
+
+I am open to scheduling a call to discuss these points. If you prefer communicating via email, please respond at your earliest convenience. 
+
+
+Thank you!
+
+
+Best, 
+Yoselin Alegria
+Data Analyst
